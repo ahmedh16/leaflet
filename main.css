@@ -1,0 +1,257 @@
+
+            .html {
+                height: 100%;
+                width: 1000 px;
+                margin-right: 4000px;
+                align-content: center;
+                padding-left: 1000px;
+           
+            }
+
+            
+            body {
+                background: white;
+                margin-left: 80px;
+                margin-right: 60px;
+            
+               
+}
+
+            .line1 {
+                background: #00C574;
+                height: 10px;
+                width: 400px;
+                position: relative;
+            }
+            
+            .line2 {
+                background:#FAF854;
+                height: 10px;
+                width: 1050px;
+                position: relative;
+            }
+            
+            .line3{
+                background:#FF4320;
+                height: 10px;
+                width: 340px;
+                z-index: 25p;
+                position: relative;
+                left:20px;
+            }
+            
+            .line4 {
+                background:#007ECD;
+                height: 10px;
+                width: 250px;
+                margin-left: 10px;
+                position: relative;
+                left: 20px;
+            }
+            
+            .line5 {
+                background: #00C574;
+                height:360px ;
+                width: 10px ;
+                position: relative;
+                z-index: 100;
+                top:-40px;
+            }
+             .line6 {
+                background: #FAF854;
+                top:19px;
+                left:90px;
+                height:100%;
+                width: 10px ;
+                position:fixed;
+            }
+            
+            .line7 {
+                background:#FF4320;
+                height: 400px;
+                width: 10px;
+                top:-370px;
+                left:20px;
+                position: relative;
+            }
+            
+            .line8 {
+                background:#007ECD;
+                height: 310px;
+                width: 10px;
+                top: -760px;
+                left: 30px;
+                position:relative;
+            }
+           
+            .header {
+                
+                height: 200px;
+                width: 200px;
+                top: -700px;
+                left:880px;
+                position: relative;
+                font-family: 'Signika', sans-serif;
+                font-size: 65px;
+                color:#595959;
+                
+            }
+            
+            .subheader {
+                
+                height: 200px;
+                width: 400px;
+                top: -800px;
+                left:880px;
+                position: relative;
+                font-family: 'Signika', sans-serif;
+                font-size: 32px;
+                color:#595959;            
+            }
+            
+            .map {
+                top: -1080px;
+                left: 50px;
+                height: 520px;
+                width:1000px;
+                position: relative;
+                border-bottom-color: red;
+                align-self: center;
+                
+            }
+            
+            
+            }
+            
+            .tab {
+                margin-left: 40px;
+            }
+            
+            .p {
+                 font-family: 'Signika', sans-serif;
+            }
+            
+            .h4 {
+                font-family: 'Signika', sans-serif;
+            }
+                
+        
+            .image {
+                border: 100px;
+                border-top:0;
+                border-left:0;
+                border-right:0;
+                border-color: aqua;
+                height: 520px;
+                width:1000px;
+                position: relative;
+            }
+            
+            .caption1 {
+                position:relative;
+                height: 40px;
+                width: 200px;
+                background: black;
+                top: -855px;
+                left: 50px;
+                color:white;
+                font-size: 33px;
+                margin-left: 10px;
+                opacity:.5;
+            }
+            
+             .caption2 {
+                position:relative;
+                height: 40px;
+                width: 200px;
+                background: black;
+                top: -38px;
+                left: 830px;
+                color:white;
+                font-size: 33px;
+                margin-left: 10px;
+                opacity:.5;
+            }
+            
+            .captionText1{
+                position:relative;
+                height: 40px;
+                width: 250px;
+                font-family: 'Signika', sans-serif;
+                top: -947px;
+                left: 55px;
+               color:lightgray;
+                font-size: 16px;
+                margin-left: 10px;
+                font-style: oblique;
+            }
+            
+            .captionText2{
+                position:relative;
+                height: 40px;
+                width: 250px;
+                font-family: 'Signika', sans-serif;
+                top: -148px;
+                left: 834px;
+                color:lightgrey;
+                font-size: 16px;
+                margin-left: 10px;
+                font-style: oblique;
+            }
+
+            .text{
+                top: -1040px;
+                left: 50px;
+                height: 520px;
+                width:1000px;
+                position: relative;
+               
+             
+                align-self: center;
+                text-align: justify;
+                font-family: 'Signika', sans-serif;
+}
+            
+            .bottomLine2 {
+                left: 40px;
+                bottom: 1007px;
+                background:#007ECD;
+                height: 5px;
+                width: 1000px;
+                margin-left: 10px;
+                position: relative;
+                
+            }
+
+            .bottomLine1 {
+                left: 40px;
+                bottom: 150px;
+                background:#FF4320;
+                height: 5px;
+                width: 1000px;
+                margin-left: 10px;
+                position: relative;
+                
+            }
+
+            .bottomLine3 {
+                left: 410px;
+                bottom: -70px;
+                background:#00C574;
+                height: 5px;
+                width: 250px;
+                margin-left: 10px;
+                position: relative;
+                
+            }   
+
+            .bottomPadding {
+                left: 0px;
+                bottom: -75px;
+                background:white;
+                height: 5px;
+                width: 250px;
+                margin-left: 10px;
+                position: relative;
+                
+            }   
