@@ -5,6 +5,7 @@
                 margin-right: 4000px;
                 align-content: center;
                 padding-left: 1000px;
+                overflow-x: hidden;
            
             }
 
@@ -13,6 +14,7 @@
                 background: white;
                 margin-left: 80px;
                 margin-right: 60px;
+                overflow-x: hidden;
             
                
 }
