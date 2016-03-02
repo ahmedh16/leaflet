@@ -1,20 +1,23 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y:auto;
+}
 
-            .html {
-                height: 100%;
-                width: 1000 px;
-                margin-right: 4000px;
-                align-content: center;
-                padding-left: 1000px;
-                overflow-x: hidden;
-           
-            }
+#wrap {
+    width: 1200px;
+    margin: 0 auto;
+    font-family: 'Signika', sans-serif;
+
+}
+            
+
 
             
             body {
                 background: white;
                 margin-left: 80px;
                 margin-right: 60px;
-                overflow-x: hidden;
             
                
 }
@@ -37,7 +40,6 @@
                 background:#FF4320;
                 height: 10px;
                 width: 340px;
-                z-index: 25p;
                 position: relative;
                 left:20px;
             }
@@ -56,16 +58,18 @@
                 height:360px ;
                 width: 10px ;
                 position: relative;
-                z-index: 100;
                 top:-40px;
             }
              .line6 {
                 background: #FAF854;
                 top:19px;
                 left:90px;
-                height: 500px;
+                height:500px;
                 width: 10px ;
                 position:fixed;
+                float: none;
+                 z-index: 0;
+                 overflow: scroll;
             }
             
             .line7 {
