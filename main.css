@@ -1,4 +1,6 @@
 
+
+
             .html {
                 height: 100%;
                 width: 1000 px;
@@ -10,16 +12,16 @@
             }
 
             
-            body {
+       <!--   body {
                 background: white;
                 margin-left: 80px;
                 margin-right: 60px;
-                overflow-x: hidden;
+                overflow-x: hidden; -->
             
-               
-}
+            
+} 
 
-            .line1 {
+           .line1 {
                 background: #00C574;
                 height: 10px;
                 width: 400px;
@@ -40,8 +42,34 @@
                 z-index: 25p;
                 position: relative;
                 left:20px;
+                
+                 -webkit-animation-name: line3; /* Chrome, Safari, Opera */
+                -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+                -webkit-animation-iteration-count: infinite; /* Chrome, Safari, Opera */
+                animation-name: line3;
+                animation-duration: 4s;
+                animation-iteration-count: infinite;
             }
             
+
+                /* Chrome, Safari, Opera */
+                @-webkit-keyframes line3 {
+                    0%   {background-color:#FF4320; left:0px; top:0px;}
+                    25%  {background-color:#FF4320; left:20px; top:0px;}
+                    50%  {background-color:#FF4320; left:50px; top:0px;}
+                    75%  {background-color:#FF4320; left:80px; top:0px;}
+                    100% {background-color:#FF4320; left:0px; top:0px;}
+                }
+
+                /* Standard syntax */
+                @keyframes line3 {
+                    0%   {background-color:#FF4320; left:0px; top:0px;}
+                    25%  {background-color:#FF4320; left:20px; top:0px;}
+                    50%  {background-color:#FF4320; left:50px; top:0px;}
+                    75%  {background-color:#007ECD; left:80px; top:0px;}
+                    100% {background-color:#FF4320; left:0px; top:0px;}
+                }   
+
             .line4 {
                 background:#007ECD;
                 height: 10px;
@@ -49,8 +77,34 @@
                 margin-left: 10px;
                 position: relative;
                 left: 20px;
+                -webkit-animation-name: line4; /* Chrome, Safari, Opera */
+                -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+                -webkit-animation-iteration-count: infinite; /* Chrome, Safari, Opera */
+                animation-name: line4;
+                animation-duration: 4s;
+                animation-iteration-count: infinite;
+               
             }
-            
+
+            @-webkit-keyframes line4 {
+                    0%   {background-color:#007ECD; left:0px; top:0px;}
+                    25%  {background-color:#007ECD; left:20px; top:0px;}
+                    50%  {background-color:#007ECD; left:50px; top:0px;}
+                    75%  {background-color:#007ECD; left:80px; top:0px;}
+                    100% {background-color:#007ECD; left:0px; top:0px;}
+                }
+
+                /* Standard syntax */
+                @keyframes line4 {
+                    0%   {background-color:#007ECD; left:0px; top:0px;}
+                    25%  {background-color:#007ECD; left:20px; top:0px;}
+                    50%  {background-color:#007ECD; left:50px; top:0px;}
+                    75%  {background-color:#FF4320; left:80px; top:0px;}
+                    100% {background-color:#007ECD; left:0px; top:0px;}
+                }   
+
+                
+
             .line5 {
                 background: #00C574;
                 height:360px ;
@@ -65,7 +119,7 @@
                 left:90px;
                 height: 500px;
                 width: 10px ;
-                position:fixed;
+                position:absolute;
             }
             
             .line7 {
@@ -84,6 +138,7 @@
                 top: -760px;
                 left: 30px;
                 position:relative;
+                
             }
            
             .header {
@@ -123,7 +178,7 @@
             }
             
             
-            }
+            
             
             .tab {
                 margin-left: 40px;
@@ -257,3 +312,19 @@
                 position: relative;
                 
             }   
+
+
+ssanimation {
+    width: 10px;
+    height: 100px;
+    
+    background-color: red;
+    position: relative;
+    -webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: infinite; /* Chrome, Safari, Opera */
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+                
