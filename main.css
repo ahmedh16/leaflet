@@ -55,16 +55,16 @@
                 /* Chrome, Safari, Opera */
                 @-webkit-keyframes line3 {
                     0%   {background-color:#FF4320; left:0px; top:0px;}
-                    25%  {background-color:#FF4320; left:20px; top:0px;}
+                    25%  {background-color:#007ECD; left:20px; top:0px;}
                     50%  {background-color:#FF4320; left:50px; top:0px;}
-                    75%  {background-color:#FF4320; left:90px; top:0px;}
+                    75%  {background-color:#007ECD; left:90px; top:0px;}
                     100% {background-color:#FF4320; left:0px; top:0px;}
                 }
 
                 /* Standard syntax */
                 @keyframes line3 {
                     0%   {background-color:#FF4320; left:0px; top:0px;}
-                    25%  {background-color:#FF4320; left:20px; top:0px;}
+                    25%  {background-color:#007ECD; left:20px; top:0px;}
                     50%  {background-color:#FF4320; left:50px; top:0px;}
                     75%  {background-color:#007ECD; left:90px; top:0px;}
                     100% {background-color:#FF4320; left:0px; top:0px;}
@@ -88,16 +88,16 @@
 
             @-webkit-keyframes line4 {
                     0%   {background-color:#007ECD; left:0px; top:0px;}
-                    25%  {background-color:#007ECD; left:20px; top:0px;}
+                    25%  {background-color:#FF4320; left:20px; top:0px;}
                     50%  {background-color:#007ECD; left:50px; top:0px;}
-                    75%  {background-color:#007ECD; left:80px; top:0px;}
+                    75%  {background-color:#FF4320; left:80px; top:0px;}
                     100% {background-color:#007ECD; left:0px; top:0px;}
                 }
 
                 /* Standard syntax */
                 @keyframes line4 {
                     0%   {background-color:#007ECD; left:0px; top:0px;}
-                    25%  {background-color:#007ECD; left:20px; top:0px;}
+                    25%  {background-color:#FF4320; left:20px; top:0px;}
                     50%  {background-color:#007ECD; left:50px; top:0px;}
                     75%  {background-color:#FF4320; left:80px; top:0px;}
                     100% {background-color:#007ECD; left:0px; top:0px;}
